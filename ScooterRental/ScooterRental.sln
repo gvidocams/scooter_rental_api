@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScooterRental", "ScooterRental.csproj", "{AA7B7803-31A2-4113-BD2D-24EF18D0CBFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScooterRental", "ScooterRental.csproj", "{AA7B7803-31A2-4113-BD2D-24EF18D0CBFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScooterRental.Core", "..\ScooterRental.Core\ScooterRental.Core.csproj", "{DD878E1B-0D15-495A-B300-C56927D9D2E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScooterRental.Services", "..\ScooterRental.Services\ScooterRental.Services.csproj", "{AC6CBA4F-9B81-47B4-A8BE-588DEE7F228F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScooterRental.Data", "..\ScooterRental.Data\ScooterRental.Data.csproj", "{CDF23459-5EFC-4C5E-9B48-37DB97667016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScooterRental.Tests", "..\ScooterRental.Tests\ScooterRental.Tests.csproj", "{2AFBDEBC-3705-421A-A7F5-144066F63A3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{AA7B7803-31A2-4113-BD2D-24EF18D0CBFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA7B7803-31A2-4113-BD2D-24EF18D0CBFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA7B7803-31A2-4113-BD2D-24EF18D0CBFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD878E1B-0D15-495A-B300-C56927D9D2E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD878E1B-0D15-495A-B300-C56927D9D2E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD878E1B-0D15-495A-B300-C56927D9D2E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD878E1B-0D15-495A-B300-C56927D9D2E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC6CBA4F-9B81-47B4-A8BE-588DEE7F228F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC6CBA4F-9B81-47B4-A8BE-588DEE7F228F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC6CBA4F-9B81-47B4-A8BE-588DEE7F228F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC6CBA4F-9B81-47B4-A8BE-588DEE7F228F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDF23459-5EFC-4C5E-9B48-37DB97667016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF23459-5EFC-4C5E-9B48-37DB97667016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF23459-5EFC-4C5E-9B48-37DB97667016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF23459-5EFC-4C5E-9B48-37DB97667016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AFBDEBC-3705-421A-A7F5-144066F63A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AFBDEBC-3705-421A-A7F5-144066F63A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AFBDEBC-3705-421A-A7F5-144066F63A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AFBDEBC-3705-421A-A7F5-144066F63A3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
