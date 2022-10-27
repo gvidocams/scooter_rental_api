@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ScooterRental.Core\ScooterRental.Core.csproj" />
+    <ProjectReference Include="..\ScooterRental.Data\ScooterRental.Data.csproj" />
+  </ItemGroup>
+
+</Project>
